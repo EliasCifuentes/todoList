@@ -1,0 +1,74 @@
+
+.contenedor {
+    border: solid black 1px;
+     margin: 50px;
+}
+
+h1, h2 {
+  margin: 25px;
+}
+
+.agregar{
+  width: 75%;
+  height: 20px;
+  margin: 20px;
+}
+
+.btn {
+  width: 75px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+
+.check:hover{
+  cursor: pointer;
+}
+
+.informacion {
+    display: flex;
+}
+
+.recuento{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.imagen {
+    width: 15px; 
+    height: 15px;
+    background-image: url('/todoList/asset/img/eliminar.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  .totalTareas {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .negrita {
+    font-weight: 900;
+    margin-left: 4px;
+  }
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td {
+  padding: 8px;
+}
+
+
+  
